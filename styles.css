@@ -1,0 +1,52 @@
+body {
+  background: url(GettyImages-1340434591-5a453e424e4f7d003a11a867.jpg) repeat-x
+    center center / contain;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 62.5%;
+}
+
+.container {
+  background: #eee;
+  padding: 2rem;
+  opacity: 0.9;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 10px #111;
+}
+
+.timer {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+button {
+  border: 0;
+  color: #fff;
+  padding: 0;
+}
+
+button i {
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30px;
+}
+
+#play {
+  background-color: green;
+}
+#pause {
+  background-color: orange;
+}
+#reset {
+  background-color: red;
+}
